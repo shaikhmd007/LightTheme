@@ -101,10 +101,7 @@ blockquote {
 
 
 
-#author {
-  color: black;
-  display: block;
-}
+
 
 .btn1 {
   border-radius: 20px 0 0 20px;
@@ -234,7 +231,7 @@ blockquote {
 }
 
 .save:hover:after {
-  background: var(--inv);
+  background: black;
   transition-delay: .35s;
   color: #ffffff;
 
@@ -294,7 +291,7 @@ blockquote {
 }
 
 .navbar-nav>.nav-item>.nav-link:hover {
-  color: lime;
+  color: black;
 }
 
 .navbar-nav>.nav-item>.nav-link::before {
@@ -305,7 +302,7 @@ blockquote {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: lime;
+  background-color: black;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -320,7 +317,7 @@ blockquote {
   padding: 0;
   display: inline-block;
   border-radius: 40% 0;
-  box-shadow: 0 .1px 12px 0 lime;
+
 }
 
 .Switch {
@@ -332,9 +329,9 @@ blockquote {
 }
 
 .bi-moon-stars-fill {
-  color: lime;
+  color: black;
   /* background-color: rgb(236, 230, 230); */
-  box-shadow: 0 .1px 5px 0 lime;
+  box-shadow: 0 .1px 5px 0 rgb(0, 0, 0);
   padding: 5px;
   border-radius: 50%;
 
@@ -345,7 +342,7 @@ blockquote {
 
 .hero-section>.container {
   background: none;
-  box-shadow: 0 1px 2px 0 lime;
+  box-shadow: 0 1px 2px 0 rgb(0, 0, 0);
   border-radius: 10px;
   /* border: 1px solid rgba(63, 241, 4, 0.18); */
   /* color: #efefef; */
@@ -374,7 +371,7 @@ blockquote {
 
 .about-me-content>.card {
   background: rgba(14, 13, 13, 0.009);
-  box-shadow: 0 1px 2px 0 lime;
+  box-shadow: 0 1px 2px 0 rgb(0, 0, 0);
   ;
   backdrop-filter: blur(0.5px);
   -webkit-backdrop-filter: blur(0.5px);
@@ -443,22 +440,14 @@ projects-section
 }
 
 .card-body {
-  /* background: rgba(17, 16, 16, 0.477); */
   background-image: url(../img/ProjectsBackground1.jpg);
-  box-shadow: 0 8px 32px 0 rgba(0, 17, 251, 0.37);
-  backdrop-filter: blur(0.5px);
+  box-shadow: 0 5px 33px 0 rgb(0, 0, 0);
+  backdrop-filter: blur(0.10px);
   -webkit-backdrop-filter: blur(0.5px);
-  /* border-radius: 5px; */
-  /* border: 2px solid blue; */
+
   color: #efefef;
 }
 
-.card-body>h5,
-.card-text {
-  /* color: lime; */
-  font-weight: bolder;
-  text-shadow: 1px 2px 3px rgba(128, 128, 128, 0.974);
-}
 
 .name {
   font-style: oblique;
@@ -475,12 +464,11 @@ projects-section
 .Portfolio-txt {
   margin: 40px auto;
   /* font-size: 100px; */
-  font-weight: bold;
+  font-weight: bolder;
   color: rgba(0, 0, 0, 0.747);
   text-align: center;
   letter-spacing: 5px;
-  text-shadow: 2px 7px 5px lime,
-    0px -4px 10px white;
+
 }
 
 hr {
@@ -493,7 +481,7 @@ hr {
 
 .container>.content>.card {
   background: rgba(0, 0, 0, 0);
-  box-shadow: 0 1px 2px 0 blue;
+  box-shadow: 0 1px 2px 0 rgb(0, 0, 0);
   backdrop-filter: blur(0.5px);
   -webkit-backdrop-filter: blur(0.5px);
   border-radius: 10px;
@@ -517,9 +505,9 @@ hr {
 }
 
 .dev-is {
-  color: lime;
+  color: rgb(0, 0, 0);
   /* box-shadow: 0 10px 32px 0 rgba(10, 23, 207, 0.543); */
-  text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.974);
+  text-shadow: 1px 1px 7px rgba(75, 75, 75, 0.974);
   /* border: 1px solid blue; */
 }
 
